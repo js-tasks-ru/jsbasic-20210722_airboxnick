@@ -30,7 +30,7 @@ describe('6-module-2-task', () => {
     it('свойство elem возвращает один и тот же элемент, при каждом обращении', () => {
       const elementFirstCall = sut.elem;
       const elementSecondCall = sut.elem;
-  
+
       expect(elementFirstCall).toBe(elementSecondCall);
     });
 
